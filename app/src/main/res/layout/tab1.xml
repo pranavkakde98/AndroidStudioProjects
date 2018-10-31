@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ell1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tab_elec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:text="Electrician"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/ell2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/ell1"
+        android:orientation="horizontal"
+        android:onClick="buttonClicked">
+
+        <TextView
+            android:id="@+id/tab_plumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Plumber"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="80dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/ell3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/ell2"
+        android:orientation="horizontal"
+        android:onClick="buttonClicked">
+
+    <TextView
+        android:id="@+id/tab_carpenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Carpenter"
+        android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="80dp"
+        android:background="@color/grey"/>
+
+</RelativeLayout>

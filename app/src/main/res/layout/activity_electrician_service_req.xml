@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/z1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Which service do you require?"
+            android:textSize="24dp"
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/z2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/Grey"
+        android:layout_below="@id/z1"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/z1"
+        android:background="@drawable/custom_selector">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/gew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="General Electrical Work"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_toLeftOf="@+id/gewPrice"
+                android:background="@drawable/rupees"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/gewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textSize="18dp"
+                android:text="300"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/under_electical_h1"
+                android:layout_below="@id/gew"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Grey"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/linearLayout1"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_selector"
+        android:layout_below="@id/linearLayout1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/mcp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Main Circuit Panel/Meter Board"/>
+
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_toLeftOf="@id/mcpPrice"
+                android:background="@drawable/rupees"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:id="@+id/mcpPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textSize="18dp"
+                android:text="450"
+                android:textColor="@color/black"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Installation or Repair"
+                android:layout_below="@id/mcp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Grey"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/linearLayout2"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_selector"
+        android:layout_below="@id/linearLayout2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/hti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Home Theatre Installation"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_toLeftOf="@+id/htiPrice"
+                android:background="@drawable/rupees"
+                android:layout_marginTop="6dp"/>
+
+
+            <TextView
+                android:id="@+id/htiPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textSize="18dp"
+                android:text="600"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/under_electrical_h3"
+                android:layout_below="@id/hti"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Grey"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_below="@+id/linearLayout3"/>
+
+</RelativeLayout>

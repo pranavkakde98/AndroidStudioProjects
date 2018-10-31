@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="Health">Health &amp; Fitness</string>
+    <!--Titles-->
+    <string name="login_txt">Login</string>
+    <string name="SignUp_txt">Signup</string>
+
+    <!--Welcome Messages-->
+    <string name="Login_welcome_text">Hello there! \nWelcome Back</string>
+    <string name="Register_welcome_txt">Hello there! \nWelcome</string>
+
+    <!--Edit text hints-->
+    <string name="email_address_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="full_name_hint">Full Name</string>
+
+    <!--Button Labels-->
+    <string name="Signup_Button_label">SIGNUP</string>
+    <string name="Signup_withFB_button">SIGNUP WITH GOOGLE</string>
+    <string name="Login_Button_label">LOGIN</string>
+    <string name="Fb_Button_label">LOGIN WITH FACEBOOK</string>
+    <string name="todo">TODO</string>
+    <string name="login_label">" Login "</string>
+    <string name="signup_label">" Signup "</string>
+
+
+    <!--Misc Test-->
+    <string name="Forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="have_account">Have an account?</string>
+    <string name="log_in">" Login"</string>
+    <string name="divider_orr">"OR"</string>
+    <string name="title_activity_navigation_drawer">E-Doors</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">General</string>
+    <string name="tab_text_2">Health &amp; Fitness</string>
+    <string name="tab_text_3">Appliance Repair</string>
+    <string name="tab_text_4">Home Tutor</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--inside activity-->
+
+
+    <string name="under_plumber">Every Plumber is skill checked,\nbackground verified and continuously \nevaluated</string>
+    <string name="pricing">Transparent and fixed pricing</string>
+    <string name="under_pricing">Fixed rates for all your service\nneeds</string>
+    <string name="protection">Customer protection</string>
+    <string name="under_protection">30 days service guarantee and upto INR\n10,000 of damage protection on each \nbooking</string>
+    <string name="radio1text1">Repairs &amp; Fixes</string>
+    <string name="radio1text2">Pay if you take service,as per rate \ncard shared next</string>
+    <string name="radio2text1">Recommended for installation of \nmajor hardware fittings like Western\nToilet,Wash Basin etc</string>
+    <string name="radio2head">Standard Installation Services</string>
+    <string name="pricing2">Pricing &amp; Terms</string>
+
+
+    <string name="hourly_pricing">Hourly Pricing</string>
+    <string name="inspect">Inspection is Free</string>
+
+
+    <string name="additional_cost1">Additional cost</string>
+    <string name="additional_cost2">Rs 100 convenience fee for material \nprocurement</string>
+    <string name="additional_cost3">Rs 100 for every 60 minutes for helper \n(if required for complex work)</string>
+
+    <string name="cost">Prices for Drain and Pipe Blockage work will be \nprovided after inspection</string>
+    <string name="where">Where do you need the \nservice?</string>
+
+
+    <string name="under_electrician">Every Electrician is skill checked,\nbackground verified and continuously \nevaluated</string>
+    <string name="under_electical_h1">(Wirings &amp; Fittings)</string>
+    <string name="under_electrical_h3">Fittings &amp; Repair</string>
+
+    <string name="under_carpenter">Every Carpenter is skill checked,\nbackground verified and continuously \nevaluated</string>
+    <string name="under_carpenter_h1">(Repair &amp; Fixes)</string>
+
+    <string name="carpenter_h2">Assembly/Disassembly of \nCurrent/New Furniture</string>
+
+</resources>

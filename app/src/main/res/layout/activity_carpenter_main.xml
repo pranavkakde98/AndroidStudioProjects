@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/img">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/plumber2"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@id/img"
+                android:text="E-Doors Guarantee:"
+                android:textColor="@color/Black"
+                android:textSize="28dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/img"
+                android:layout_marginTop="95dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:id="@+id/i"
+                        android:background="@drawable/ic_specialist_user"
+                        />
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/i"
+                        android:layout_marginLeft="16dp"
+                        android:text="Skilled and Verified Carpenter"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/Black"/>
+
+                    <TextView
+                        android:layout_below="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/i"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="4dp"
+                        android:textSize="16dp"
+                        android:lines="3"
+                        android:text="@string/under_carpenter"></TextView>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/ll2"
+                android:layout_height="100dp"
+                android:layout_below="@id/ll1"
+                android:layout_marginTop="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:id="@+id/i1"
+                        android:background="@drawable/ic_rupee"
+                        />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/i1"
+                        android:layout_marginLeft="16dp"
+                        android:text="Transparent and fixed pricing"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/Black"/>
+
+                    <TextView
+                        android:layout_below="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_toRightOf="@+id/i1"
+                        android:layout_marginLeft="16dp"
+                        android:textSize="16dp"
+                        android:lines="3"
+                        android:text="@string/under_pricing" />
+
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/ll2"
+                android:layout_marginTop="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:id="@+id/i2"
+                        android:background="@drawable/ic_shield"
+                        />
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/i2"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/protection"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/Black"/>
+
+                    <TextView
+                        android:layout_below="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_toRightOf="@+id/i2"
+                        android:layout_marginLeft="16dp"
+                        android:textSize="16dp"
+                        android:lines="3"
+                        android:text="@string/under_protection" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/ll3"></LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/schedule_button_carpenter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="Schedule for Service"
+            android:background="@color/Black"
+            android:textSize="18dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

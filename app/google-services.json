@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "258918041281",
+    "firebase_url": "https://edoors-5c591.firebaseio.com",
+    "project_id": "edoors-5c591",
+    "storage_bucket": "edoors-5c591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258918041281:android:520cb81e2760da25",
+        "android_client_info": {
+          "package_name": "com.example.hp.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258918041281-7aa9ld2aa3hhnjf9dg4u5fl2h80blolg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.afinal",
+            "certificate_hash": "849adff2a1cb872fef2a1991fff793444a81dbc3"
+          }
+        },
+        {
+          "client_id": "258918041281-3eeiul8vd8v3k91mekelr34vt5na3sjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.afinal",
+            "certificate_hash": "03dc61df86400f5c702b0cfca6b2a48481bafb3d"
+          }
+        },
+        {
+          "client_id": "258918041281-qtdvvnaf16jaovvik1epmp13oaqp5g6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwhD0SyhhwKXH1AvnSh_Qq3gRIR0ZmzfI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258918041281-qtdvvnaf16jaovvik1epmp13oaqp5g6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
